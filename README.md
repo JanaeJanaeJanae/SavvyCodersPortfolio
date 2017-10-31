@@ -2,5 +2,5 @@
 
 ![local photo](Snapchat-933626540.jpg)
 
-+ [Snapchat](www.snapchat.com)
-+ [Instagram](www.instagram.com)
++ [Snapchat](https://snapchat.com/JanaeInBloom)
++ [Instagram](https://instagram.com/JanaeJanaeJanae)
