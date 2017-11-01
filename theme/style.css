@@ -1,0 +1,18 @@
+body{
+  background-color: lightgrey;
+}
+h1{
+  color:hotpink;
+}
+h3{
+  font-family:sans-serif;background-color: lightgreen;
+}
+.BrightWhite{
+  color:white;
+  background-color: lightgreen;
+}
+
+#subheader{
+  font-style: italic;
+  font-weight: 1000;
+}
