@@ -1,5 +1,64 @@
+.container{
+  max-width: 750px;
+  margin: 10px auto;
+}
+
+ul.container > li{
+color: lightgreen;
+}
+
+.container h1 + h2{
+  color: lightgreen;
+}
+
+.navbar{
+  background-color: hotpink;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+}
+
+.navbar > ul > li{
+  display: inline;
+  margin: 5px;
+  position: relative;
+}
+
+.navbar .dropdown{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  display:none;
+}
+
+.navbar a:hover + .dropdown,
+.navbar .dropdown:hover{
+  display:block;
+}
+
+
+.header{
+margin: 50px;
+padding: 50px;
+background-color: white;
+}
+
+.content{
+border: 5px dotted hotpink;
+  padding: 55px;
+  margin: 50px;
+  background-color: lightgreen;
+}
+
+.footer{
+  background-color: darkgrey;
+}
+
 body{
   background-color: lightgrey;
+  text-align: center;
+  margin: 0;
 }
 h1{
   color:hotpink;
@@ -15,4 +74,32 @@ h3{
 #subheader{
   font-style: italic;
   font-weight: 1000;
+}
+
+#espanol{
+  background-color: lightpink;
+}
+
+#espanol > li:first-child{
+  background-color: violet;
+}
+
+#espanol > li:last-child{
+  background-color: white;
+}
+
+#espanol > li:nth-child(2){
+  color: cyan;
+}
+
+#espanol > li:nth-child(2n+1){
+  background-color: lightgrey;
+}
+
+#espanol  li:hover{
+  background-color: purple;
+}
+
+#nav  li:hover{
+  background-color: lightgreen;
 }
