@@ -27,7 +27,7 @@ color: lightgreen;
 
 .navbar .dropdown{
   position: absolute;
-  top: 20px;
+  top: 17px;
   right: 0;
   display:none;
 }
@@ -45,9 +45,10 @@ background-color: white;
 }
 
 .content{
-border: 5px dotted hotpink;
+  width: 500px;
+  border: 5px dotted hotpink;
   padding: 55px;
-  margin: 50px;
+  margin: auto;
   background-color: lightgreen;
 }
 
@@ -60,6 +61,7 @@ body{
   text-align: center;
   margin: 0;
 }
+
 h1{
   color:hotpink;
 }
@@ -100,6 +102,14 @@ h3{
   background-color: purple;
 }
 
-#nav  li:hover{
+.navbar  li:hover{
   background-color: lightgreen;
+}
+
+label{
+  color: hotpink;
+}
+
+input[type='text']{
+  background-color: pink;
 }
