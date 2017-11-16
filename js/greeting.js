@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
+// var hello = "hello";
 
-var hello = "hello";
 var originalName = prompt( "What's your name?" );
 
 var checkUserName = function checkUserName( userName ){
@@ -16,4 +16,6 @@ var checkUserName = function checkUserName( userName ){
 
 checkUserName( originalName );
 
-document.querySelector( "#subheader" ).textContent = "Hello, " + originalName;
+// document.querySelector( "#subheader" ).textContent = "Hello, " + originalName;
+
+document.querySelector( "#subheader" ).outerHTML = "<h3>Hello, " + originalName + "</h3>";
