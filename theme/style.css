@@ -113,3 +113,9 @@ label{
 input[type='text']{
   background-color: pink;
 }
+
+#output{
+  color: mediumseagreen;
+  font-size: 75px;
+  font-family: fantasy;
+}
